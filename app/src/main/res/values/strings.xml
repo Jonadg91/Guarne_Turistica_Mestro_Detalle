@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Maestro Detalle</string>
+    <string name="title_page_detail">Page Detail</string>
+
+    <string name="titulo">Guarne Turistica</string>
+    <string name="mensaje">Bienvenido al Municipio de Guarne, Puerta del Oriente Antioqueño</string>
+    <string name="title_activity_aboutus">Hoteles</string>
+    <string name="title_activity_hoteles">Hoteles</string>
+    <string name="title_activity_bares">Bares</string>
+    <string name="title_activity_sitios">Sitios Turisticos</string>
+    <string name="title_activity_about_guarne">Acerca de Guarne</string>
+    <string name="acercadeguarne">Acerca de Guarne</string>
+    <string name="info" >Distancia 24km Oriente de Medellín \n Altitud 2150 metros\n Superficie	151km²\n Población 38.847hab
+        \nTemperatura 18°C</string>
+    <string name="title_activity_about_us">Acerca del Autor</string>
+    <string name="infoautores">Hecho por Jonathan Duque Gallego\nEstudiante de Ingeniería Electrónica\nUniversidad de Antioquia\n</string>
+    <string name="lacascada">Fuente de agua cristalina en la via la Brizuela, ideal para un buen chapuzon de agua fria</string>
+    <string name="lamayoria">Lindo lugar en la vereda la Honda, especial para acampar y darse un chapuzon de agua fresca </string>
+    <string name="altodelavirgen">Sitio de turismo y peregrinacion religiosa, en especial los primeros sábados de cada mes</string>
+    <string name="estadio_futbol">Moderna unidad deportiva, que cuenta con cancha de futbol sintetica, canchas de
+        tiro deportiva y pista de patinaje para carreras y ruta.</string>
+    <string name="parqueprincipal">Parque Tradicional de un pueblo, donde encontrarás todo tipo de lugares para disfrutar un rato agradable</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">Splash</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

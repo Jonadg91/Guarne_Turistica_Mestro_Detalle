@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context='com.jonathanduque.ejemplomd.about_guarne'>
+    <LinearLayout
+        style="@style/LinearLStyle2"
+        android:background="@drawable/guarne">
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:layout_weight="3">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/acercadeguarne"
+            android:textAppearance="@style/textViewStyle"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/yellowgreen"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:layout_weight="1.6">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/info"
+            android:textAppearance="@style/textViewStyle"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/yellowgreen"/>
+
+    </LinearLayout>
+</LinearLayout>
