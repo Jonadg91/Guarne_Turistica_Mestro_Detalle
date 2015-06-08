@@ -30,7 +30,8 @@ public class DummyContent {
         addItem(new DummyItem("2", "Hoteles"));
         addItem(new DummyItem("3", "Sitios Turisticos"));
         addItem(new DummyItem("4", "Acerca del Autor"));
-        //addItem(new DummyItem("5", "Pagina Oficial"));
+        addItem(new DummyItem("5", "Pagina Oficial"));
+        addItem(new DummyItem("6", "Ubicación"));
 
     }
 

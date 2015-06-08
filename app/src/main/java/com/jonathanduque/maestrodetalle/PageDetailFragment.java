@@ -96,6 +96,14 @@ public class PageDetailFragment extends Fragment {
                     //((WebView) rootView.findViewById(R.id.detail_web)).loadUrl("http://www.guarne-antioquia.gov.co/index.shtml#7");
                     ((TextView) rootView.findViewById(R.id.page_detail)).setText(Contenido.descripcion[Integer.parseInt(mItem.id)]);
                     break;
+                case 6:
+                    //((WebView) rootView.findViewById(R.id.detail_web)).loadUrl("http://www.guarne-antioquia.gov.co/index.shtml#7");
+                    Maps maps= new Maps();
+                    this.getFragmentManager().beginTransaction()
+                            .replace(R.id.page_detail_container, maps)
+                            .addToBackStack(null)
+                            .commit();
+                    break;
                 default:
                     //((TextView) rootView.findViewById(R.id.page_detail)).setText(Contenido.descripcion[Integer.parseInt(mItem.id)]);
                     break;

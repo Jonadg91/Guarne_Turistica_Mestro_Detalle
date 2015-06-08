@@ -1,10 +1,13 @@
 package com.jonathanduque.maestrodetalle;
 
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
+import com.google.android.gms.maps.MapView;
 
+//este realiza el papel de main
 /**
  * An activity representing a list of Pages. This activity
  * has different presentations for handset and tablet-size devices. On
@@ -24,6 +27,8 @@ import android.support.v4.app.FragmentActivity;
 public class PageListActivity extends FragmentActivity
         implements PageListFragment.Callbacks {
 
+   public static FragmentManager googleMap;
+    public static MapView mapView;
     /**
      * Whether or not the activity is in two-pane mode, i.e. running on a tablet
      * device.
@@ -34,6 +39,8 @@ public class PageListActivity extends FragmentActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_list);
+
+        googleMap= getFragmentManager();
 
         if (findViewById(R.id.page_detail_container) != null) {
             // The detail container view will be present only in the
